@@ -36,7 +36,10 @@ namespace SmartMed.API.Controllers
             return Ok(medicationViewModel);
         }
 
-
+        /// <summary>
+        /// Get MEdications
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("GetMedications")]
         public IActionResult GetMedications()
         {
