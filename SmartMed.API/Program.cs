@@ -13,6 +13,7 @@ namespace SmartMed.API
     {
         public static void Main(string[] args)
         {
+            //test comment
             CreateHostBuilder(args).Build().Run();
         }
 
